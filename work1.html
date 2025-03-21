@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="무료 온라인 랜덤 숫자 생성기. 원하는 범위와 개수를 설정하여 랜덤 숫자를 쉽게 생성하세요. 간단하고 빠르게 사용 가능합니다.">
+    <meta name="keywords" content="랜덤 숫자 생성기, 무료 랜덤 숫자, 숫자 뽑기, 랜덤 숫자 뽑기, 온라인 랜덤 숫자">
+    <meta name="author" content="Your Name">
+    <title>랜덤 숫자 생성기 - 무료 온라인 도구</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>랜덤 숫자 생성기</h1>
+        <p class="subtitle">원하는 범위와 개수를 설정하여 랜덤 숫자를 생성하세요.</p>
+        <div class="input-group">
+            <label for="min">최소값:</label>
+            <input type="number" id="min" value="1">
+        </div>
+        <div class="input-group">
+            <label for="max">최대값:</label>
+            <input type="number" id="max" value="100">
+        </div>
+        <div class="input-group">
+            <label for="count">뽑을 개수:</label>
+            <input type="number" id="count" value="1">
+        </div>
+        <button id="generateButton">숫자 생성</button>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
